@@ -1,0 +1,51 @@
+@import url(//db.onlinewebfonts.com/c/49cc274a964c25caade93e8185e6271f?family=August);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #101010;
+    font-family: 'Helvetica';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 10vh;
+    font-family: 'Helvetica';
+}
+
+ul{
+   list-style: none; 
+   display: flex;
+   width: 40%;
+   justify-content: space-between;
+}
+
+#home-content{
+    background-image: url('../asset/backgroundHome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home-content h1{
+    font-family: 'August';
+    color: #BA3737;
+    font-size: 150pt;
+    font-weight: bold;
+}
+
+#home-content a{
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-decoration: none;
+}
