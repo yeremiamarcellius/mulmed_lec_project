@@ -1,0 +1,231 @@
+@font-face{
+    font-family: August;
+    src: url(../asset/August-Bold.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BA3737;
+}
+
+body{
+    background-color: #101010;
+    font-family: 'Helvetica';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+ul{
+   list-style: none; 
+   display: flex;
+   width: 40%;
+   justify-content: space-between;
+}
+
+#content{
+    display: flex;
+    /* align-items: flex-start; */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-color: transparent;
+    max-width: 90%;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
+
+.Judul {
+    color:#BA3737;
+    font-family: 'August';
+    font-size: 100pt;
+    font-weight: 700;
+    letter-spacing: 0;
+    min-height: 154px;
+    min-width: 372px;
+    padding-left: 5vw;
+    padding-top: 1vw;
+
+}
+
+
+
+.image1{
+    top: 317px;
+    left: 80px;
+    width: 312px;
+    height: 447px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    transition: 0.3s;
+    border-color: transparent;
+    filter: grayscale(100%);  
+}
+
+.image1:hover{
+    transform: scale(1.3);
+    border-radius: 25px;
+    filter: none;
+    z-index: 1;
+}
+
+.image2{
+    top: 317px;
+    left: 584px;
+    width: 312px;
+    height: 447px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    transition: 0.3s;
+    filter: grayscale(100%);  
+
+}
+
+.image2:hover{
+    transform: scale(1.3);
+    border-radius: 25px;
+    filter: none;
+    z-index: 1;
+}
+
+.image3{
+    top: 317px;
+    left: 1055px;
+    width: 312px;
+    height: 447px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    transition: 0.3s;
+    filter: grayscale(100%);  
+
+}
+
+.image3:hover{
+    transform: scale(1.3);
+    border-radius: 25px;
+    filter: none;
+    z-index: 1;
+}
+
+.Yere{
+    top: 815px;
+    left: 1151px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 60px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'August';
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none; 
+}
+
+.nicholas{
+    top: 815px;
+    left: 680px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 60px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'August';
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  
+
+}
+
+.Jocelyn{
+    top: 815px;
+    left: 166px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 60px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'August';
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+
+}
+
+.txt1{
+    top: 887px;
+    left: 196px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.txt2{
+    top: 887px;
+    left: 700px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.txt3{
+    top: 887px;
+    left: 1171px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}

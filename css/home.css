@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/49cc274a964c25caade93e8185e6271f?family=August);
+@font-face{
+    font-family: August;
+    src: url(../asset/August-Bold.ttf)
+}
 
 *{
     margin: 0;
@@ -45,12 +48,37 @@ ul{
     flex-direction: column;
 }
 
-#home-content h1{
+.line{
     font-family: 'August';
     color: #BA3737;
     font-size: 150pt;
-    font-weight: bold;
+    width: 24cm;
+    top: 15%;
+    position: relative;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
 }
 
+.type-title{
+    animation: typewriter 2.3s steps(15) 1s 1 normal both,
+    blinkTextCursor 750ms steps(15) infinite normal;
+}
 
+@keyframes typewriter{
+    from{
+        width: 0;
+    } to{
+        width: 16cm;
+    }
+}
 
+@keyframes blinkTextCursor {
+    from{
+        border-right-color: rgba(255, 255, 255, 0.75);
+    } to{
+        border-right-color: transparent;
+    }
+}

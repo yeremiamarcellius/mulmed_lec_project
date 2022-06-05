@@ -37,25 +37,45 @@ ul{
    justify-content: space-between;
 }
 
-#content{
+/* #content{
+    padding-;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 8vh;
+    flex-direction: column;
+} */
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#judul h1{
+.sub-title{
     font-family: 'August';
     color: #BA3737;
-    font-size: 90pt;
+    font-size: 100pt;
     font-weight: bold;
+    margin-bottom: 25px;
+    animation: textpar 0.5s 1;
 }
 
-#judul{
-    padding-left: 5vw;
+.par{
+    padding: 15px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    justify-content: center;
+    max-width: 750px;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: textpar 0.75s 1;
 }
 
-#video{
-    padding-left: 5vw;
-    padding-right: 5vw;
+
+@keyframes textpar  {
+    0%{
+        color: #101010;
+        margin-bottom: -40px;
+    }
 }
